@@ -60,3 +60,7 @@ sudo apt-add-repository 'deb http://repos.azulsystems.com/ubuntu stable main'
 sudo apt-get update
 sudo apt-get install zulu-8
 
+# Install flux
+sudo add-apt-repository ppa:nathan-renniewaldock/flux
+sudo apt-get update
+sudo apt-get install fluxgui
