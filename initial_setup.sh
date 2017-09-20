@@ -39,8 +39,14 @@ sudo apt-get install docker-ce
 sudo groupadd docker
 sudo usermod -aG docker $USER
 
+# Install docker-machine
+curl -L https://github.com/docker/machine/releases/download/v0.12.2/docker-machine-`uname -s`-`uname -m` >/tmp/docker-machine &&
+chmod +x /tmp/docker-machine &&
+sudo cp /tmp/docker-machine /usr/local/bin/docker-machine
+
 # Install pip
 sudo apt install python-pip
 
 # Install virtual box
 sudo apt-get install virtualbox
+
