@@ -41,3 +41,6 @@ sudo usermod -aG docker $USER
 
 # Install pip
 sudo apt install python-pip
+
+# Install virtual box
+sudo apt-get install virtualbox
