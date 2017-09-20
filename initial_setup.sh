@@ -53,4 +53,10 @@ sudo apt-get install virtualbox
 # https://askubuntu.com/a/797442/424657 for info on why
 # https://askubuntu.com/a/465455/424657 for commands to run if problem is encountered
 
+# Install OpenJDK (Java8)
+# http://zulu.org/zuludocs-folder/#ZuluUserGuide/PrepareZuluPlatform/AttachAPTRepositoryUbuntuOrDebianSys.htm
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 0x219BD9C9
+sudo apt-add-repository 'deb http://repos.azulsystems.com/ubuntu stable main'
+sudo apt-get update
+sudo apt-get install zulu-8
 
