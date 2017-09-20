@@ -49,4 +49,8 @@ sudo apt install python-pip
 
 # Install virtual box
 sudo apt-get install virtualbox
+# virtualbox on 16.04 will likely require secure boot being turned off
+# https://askubuntu.com/a/797442/424657 for info on why
+# https://askubuntu.com/a/465455/424657 for commands to run if problem is encountered
+
 
