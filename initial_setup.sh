@@ -64,3 +64,8 @@ sudo apt-get install zulu-8
 sudo add-apt-repository ppa:nathan-renniewaldock/flux
 sudo apt-get update
 sudo apt-get install fluxgui
+
+# Install R
+sudo apt-get install r-base
+# libraries won't install to site-library per https://stackoverflow.com/a/36696488/3691003
+sudo chmod o+w /usr/local/lib/R/site-library
