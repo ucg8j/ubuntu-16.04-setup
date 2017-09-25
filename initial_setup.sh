@@ -69,3 +69,7 @@ sudo apt-get install fluxgui
 sudo apt-get install r-base
 # libraries won't install to site-library per https://stackoverflow.com/a/36696488/3691003
 sudo chmod o+w /usr/local/lib/R/site-library
+
+# Install tree
+sudo apt-get install tree
+
