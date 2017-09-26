@@ -73,3 +73,7 @@ sudo chmod o+w /usr/local/lib/R/site-library
 # Install tree
 sudo apt-get install tree
 
+# Install pandoc?
+
+# Install latex
+sudo apt-get install texlive
